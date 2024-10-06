@@ -1,29 +1,28 @@
-# 📸 Resimden Metin Okuma (OCR) Web Uygulaması
+# 📸 Image to Text (OCR) Web Application
 
-Bu projede, Python ve Streamlit kullanarak bir resimden metin okuma (OCR - Optical Character Recognition) uygulaması geliştirdik. Kullanıcılar, bir resim yükleyerek, resimde bulunan metinleri otomatik olarak dijital ortama aktarabilirler. Proje, Pytesseract ve OpenCV gibi güçlü araçlar kullanılarak inşa edilmiştir.
+In this project, we developed a web application for **image to text** (OCR - Optical Character Recognition) using Python and Streamlit. Users can upload an image and automatically extract the text within it. This project leverages powerful tools like Pytesseract and OpenCV for image processing and text recognition.
 
-## 🎯 Proje Hedefleri
-- **OCR (Optik Karakter Tanıma):** Resimlerde bulunan yazıları tanıyıp metne dönüştürmek.
-- **Web Uygulaması:** Streamlit kullanarak kolayca kullanılabilen bir web arayüzü oluşturmak.
-- **Görselleştirme:** Yüklenen resimleri gösterip, OCR ile işlenen metni kullanıcıya sunmak.
+## 🎯 Project Goals
+- **OCR (Optical Character Recognition):** Recognize and extract text from images.
+- **Web Application:** Build an easy-to-use web interface with Streamlit.
+- **Visualization:** Display uploaded images and show the extracted text to users.
 
-## 🚀 Özellikler
-- Kullanıcıların resim yükleyerek OCR işlemi gerçekleştirmesi.
-- Yüklenen resimdeki metinlerin Pytesseract kullanılarak okunması.
-- Okunan metinlerin tablo halinde gösterilmesi.
-- Farklı resim formatları desteklenir (JPG, PNG, JPEG).
-- Basit ve kullanıcı dostu bir web arayüzü.
+## 🚀 Features
+- Users can upload images and perform OCR on them.
+- Extracted text is displayed in a table format.
+- Supports multiple image formats (JPG, PNG, JPEG).
+- Simple and user-friendly web interface.
 
-## 🛠️ Kullanılan Teknolojiler
-- **Python 3.8+**: Proje Python dilinde geliştirildi.
-- **Streamlit**: Web arayüzü oluşturmak için kullanıldı.
-- **Pytesseract**: Resimlerden metin okuma işlemleri için kullanıldı.
-- **OpenCV**: Resim işleme adımlarında kullanıldı.
-- **Pandas**: Okunan metinlerin tablo formatında gösterilmesi için kullanıldı.
+## 🛠️ Technologies Used
+- **Python 3.8+**: The project is built using Python.
+- **Streamlit**: Used for creating the web interface.
+- **Pytesseract**: Used for extracting text from images.
+- **OpenCV**: Used for image processing.
+- **Pandas**: Used to display the extracted text in a table format.
 
-## 📝 Kurulum Adımları
+## 📝 Setup Instructions
 
-1. **Depoyu klonlayın**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/kullaniciadi/ocr-web-app.git
+   git clone https://github.com/username/ocr-web-app.git
    cd ocr-web-app
